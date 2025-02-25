@@ -6,7 +6,7 @@ Backend: SpringBoot + Mysql + Minio
 ## Introduction
 Use Springboot + Minio
 
-## Moreover, both the front - end and back - end of this demo adopt chunked upload (i.e., it supports large - file uploads).
+## Moreover, both the frontend and backend of this demo adopt chunked upload (i.e., it supports large-file uploads).
 ## At the same time, it also supports the download of large files, with the file being downloaded in chunks and then merged.
 
 ![image](https://github.com/user-attachments/assets/c476db43-3514-4693-86ee-92111dc5529d)
