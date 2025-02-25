@@ -24,6 +24,6 @@ Use Springboot + Minio
 ![image](https://github.com/user-attachments/assets/47e6c8f8-634b-411f-aec0-d68afec94b0f)
 
 
-## Meanwhile, Recursion is also employed, enabling the movement of multiple sub - folders.
+## Meanwhile, Recursion is also employed, enabling the movement of multiple sub-folders.
 ![image](https://github.com/user-attachments/assets/b9f58776-bc18-45cd-a309-d4ea0bb8210e)
 
