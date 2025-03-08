@@ -1,0 +1,101 @@
+/* html,body,div{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.md-20{
+    margin-bottom: 20px;
+}
+.color-rgb{
+    background-color:"rgb(48,65,86)"
+}
+.menu-drop{
+    display: flex;
+}
+
+.md-5{
+    margin-bottom: 5px;
+}
+.md-20{
+    margin-bottom: 20px;
+}
+
+.pd-10{
+    padding: 10px 0;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.fl{
+    float:left
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-image {
+    flex: 1;
+    align-self: center; /* 垂直居中 */
+  }
+
+.login {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .content{
+        width: 468px;
+        height: 397px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    } 
+  }
+
+.register{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #F2F6FC;
+    .content{
+        width: 468px;
+        height: 397px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    }   
+}
+
+.el-box{
+    display: flex;
+    gap:10px;
+}
