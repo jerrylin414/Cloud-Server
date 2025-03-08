@@ -1,0 +1,39 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/app?useUnicode=true&allowMultiQueries=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jerrylin414@gmail.com
+    password: hgne zzqf vjjo yutc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+
+mybatis:
+  executor-type: batch
+  mapper-locations:
+    - classpath:dao/*.xml
+    - classpath*:com/**/mapper/*.xml
+
+#MINIO
+oss:
+  name: minio
+  accessKey: admin
+  secretKey: minioadmin
+  endpoint: http://127.0.0.1:9000
+  fileExt: png,jpg,jpeg,pdf
+#  bucketName: image-bucket
+  bucketName: share

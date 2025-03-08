@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration status="error">
+    <!--定义所有的appender -->
+    <appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <!--控制台日志级别为trace以上的信息（ACCEPT） 其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level = "trace" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern = "%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %m%n"/>
+        </Console>
+
+        <File name="log" fileName="C:/logs/log4j2.log" append = "false">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %m%n"/>
+        </File>
+
+        <File name="error" fileName="C:/logs/error.log">
+            <ThresholdFilter level = "error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern = "%d{yyyy.MM.dd 'at' HH:mm:ss z} %-5level %class{36} %L %M - %m%n"/>
+        </File>
+
+        <!--打印出所有消息，每次大小超过size，则size大小的日志会自定存入按年份-月份建立的文件夹下面并进行压缩，作为存档 -->
+        <RollingFile name="rollingFile" fileName="C:/logs/web.log"
+                     filePattern="logs/$${date:yyyy-MM}/web-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern = "%d{yyyy.MM.dd 'at' HH:mm:ss z} %-5level %class{36} %L %M - %m%n"/>
+            <SizeBasedTriggeringPolicy size="2MB"/>
+        </RollingFile>
+
+    </appenders>
+
+    <loggers>
+        <root level = "INFO">
+            <appender-ref ref="rollingFile"/>
+            <appender-ref ref="console"/>
+            <appender-ref ref="error"/>
+            <appender-ref ref="log"/>
+        </root>
+    </loggers>
+
+</configuration>
+
+

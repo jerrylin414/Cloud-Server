@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1359682e-ddbb-47cd-8431-49942ef86e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../java/com/lzy/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/lzy/vo/TestVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/controller/AppFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/controller/AppFilesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/dao/AppFilesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/dao/AppFilesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/entity/AppFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/entity/AppFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/entity/AppFilesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/entity/AppFilesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/service/AppFilesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/service/AppFilesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/service/impl/AppFilesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/service/impl/AppFilesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/service/impl/AppFolderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/service/impl/AppFolderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lzy/vo/AppFilesVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lzy/vo/AppFilesVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/lzy/mapper/AppFilesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com/lzy/mapper/AppFilesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/7aa207caddd84a12939cd6c7c608ec17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/AppAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/common/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/common/IErrorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/common/ResultCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/common/ViewContentTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/config/GlobalCorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/config/MinioConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/config/MinioProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/config/MyBatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/controller/AppFilesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/controller/AppFolderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/controller/AppUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/controller/UmsMemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/dao/AppFilesMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/dao/AppFolderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/dao/AppUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/dao/UmsMemberMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/email/DynamicMailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/email/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFilesExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFilesExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFilesExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFilesExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFolderExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFolderExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFolderExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppFolderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/AppUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/UmsMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/UmsMemberExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/UmsMemberExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/UmsMemberExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/entity/UmsMemberExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/exception/ServiceExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/interceptor/InterceptConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/interceptor/JwtInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/mapper/AppFilesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/mapper/AppFolderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/mapper/AppUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/mapper/UmsMemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/mbg/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/oss/model/OssFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/oss/template/MinioTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/oss/template/OssTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/AppFilesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/AppFolderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/AppUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/OssTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/UmsMemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/impl/AppFilesServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/impl/AppFolderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/impl/AppUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/service/impl/UmsMemberServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/util/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/util/TokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/vo/AppFolderVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/lzy/vo/AppUserVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/images/7aa207caddd84a12939cd6c7c608ec17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/test-classes/com/lzy/test/DemoTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\tool_maven\maven\repsitory" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../../../../tool_maven/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\tool_maven\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2jJMo1eReV9lOFgNwGVKbRgsIZz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../app02/app" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1359682e-ddbb-47cd-8431-49942ef86e51" name="Default Changelist" comment="" />
+      <created>1721100899109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721100899109</updated>
+      <workItem from="1721100900786" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
